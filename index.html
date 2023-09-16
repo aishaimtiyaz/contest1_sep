@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dream City</title>
+    <style>
+      * {
+        margin: 1px;
+        padding: 0 1px;
+        box-sizing: border-box;
+      }
+
+      /* Set a background color and font for the entire page */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Style the header section */
+      header {
+        background-color: #e41d80;
+        text-align: center;
+        padding: 20px;
+        margin:20px;
+        color: #fff;
+      }
+
+      header h1 {
+        font-size: 2.5em;
+      }
+
+      header p {
+        font-size: 1.2em;
+      }
+
+      /* Style the navigation menu */
+      nav ul {
+        background-color: #333;
+        list-style: none;
+        text-align: center;
+        padding: 10px;
+        margin: 35px;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      /* Style the hr element */
+      hr {
+        border: 1px solid #ccc;
+        margin: 20px 0;
+      }
+
+      /* Style the main content sections */
+      section {
+        padding: 20px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      section h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+
+      section img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Style the table */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      /* Style the form elements */
+      form {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      form input[type="text"],
+      form input[type="number"],
+      form input[type="email"],
+      form select,
+      form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      form input[type="checkbox"] {
+        margin-right: 5px;
+      }
+
+      form input[type="submit"] {
+        background-color: #e41d80;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      /* Style the quotes section */
+      #quotes p {
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+
+      #quotes span {
+        font-weight: bold;
+        color: #e41d80;
+      }
+
+      /* Style the contact section */
+      #contact address {
+        font-style: italic;
+        margin-top: 10px;
+      }
+
+      #contact a {
+        color: #e41d80;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <header>
+        <h1>Harmony Haven</h1>
+        <p>Where Dreams Flourish and Hearts Unite!</p>
+      </header>
+    </section>
+
+    <nav>
+      <ul>
+        <a href="#description">City Description |</a>
+        <a href="#attractions">Attractions |</a>
+        <a href="#statistics">City Statistics |</a>
+        <a href="#feedback">Citizen Feedback |</a>
+        <a href="#quotes">Quotes |</a>
+        <a href="#contact">Contact |</a>
+      </ul>
+    </nav>
+    <hr />
+    <section id="description">
+      <h2>Harmony Haven Description</h2>
+      <img
+        src="https://media.istockphoto.com/id/1520713663/photo/capalbio-tuscan-town-from-drone.jpg?s=1024x1024&w=is&k=20&c=-xCF3Iq_3gaOrrIVNWdwHhU7zR2IP3h4ukDbruLEOSA="
+        alt="Dream City View"
+        width="500"
+        height="333"
+      />
+      <p>
+        Welcome to Harmony Haven City, a place where serenity and vibrancy seamlessly coexist. Nestled amidst lush greenery, this picturesque cityscape is a testament to the harmony between modern living and the beauty of nature.
+      </p>
+    </section>
+    <hr />
+    <section id="attractions">
+      <h2>Attractions</h2>
+
+      <ol>
+        <li>Nature Retreats</li>
+        <li>Cultural Marvels</li>
+        <li>Innovative Science Center</li>
+        <li>Food Paradise</li>
+        <li>Thrilling Sports</li>
+        <li>Festivals and Events</li>
+      </ol>
+
+      <h3>Local Favourites</h3>
+
+      <ul>
+        <li>Harmony Haven Lighthouse</li>
+        <li>Harmony Gardens:</li>
+        <li>
+            Iconic Landmarks
+          <ul style="list-style-type: circle">
+            <li>Music Alley</li>
+            <li>Café Corner</li>
+            <li>Artisan Alley</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <hr />
+    <section id="statistics">
+      <h2>City Statistics</h2>
+
+      <table border="1px">
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            <th>value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Population</td>
+            <td>800,000</td>
+          </tr>
+          <tr>
+            <td>Size</td>
+            <td>150 square miles</td>
+          </tr>
+          <tr>
+            <td>Green Initiatives</td>
+            <td>Over 40% of the city's energy comes from renewable sources</td>
+          </tr>
+          <tr>
+            <td>Education</td>
+            <td>25 public schools, 15 private schools, and two universities</td>
+          </tr>
+          <tr>
+            <td>Tourism</td>
+            <td>Annually, Harmony Haven welcomes over <b>2 million </b>tourists</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <hr />
+    <section id="feedback">
+      <h2>Feedback</h2>
+
+      <form method="post">
+        <fieldset>
+          <label for="name">Name*:</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+          <label for="email">Email*:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          /><br /><br />
+          <label for="age">Age:*</label>
+          <input type="number" id="age" required /><br /><br />
+          <label for="places">Favourite Attraction:</label>
+          <select name="places" id="places">
+            <option value="" disabled selected>
+              ---Choose your favourite attraction---
+            </option>
+            <option value="Nature Retreats">Nature Retreats</option>
+            <option value="Cultural Marvels">Cultural Marvels</option>
+            <option value="Innovative Science Center">Innovative Science Center</option>
+            <option value="Food Paradise">Food Paradise</option>
+            <option value="Thrilling Sports">Thrilling Sports</option>
+            <option value="Harmony Haven Lighthouse">Harmony Haven Lighthouse</option></select
+          ><br /><br />
+          <hr />
+          <label for="text_area">Comments:</label>
+          <textarea
+            id="text_area"
+            name="text_area"
+            placeholder="Write comments here"
+          ></textarea
+          ><br /><br />
+          <label for="subscribe">Subscribe to DreamsWorldBlog:</label>
+          <input
+            type="checkbox"
+            id="subscribe"
+            name="subscribe"
+            value="yes"
+          /><br />
+
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </section>
+    <section id="quotes">
+      <h2>Quotes from Citizens</h2>
+      <p>
+        <span>"Raising kids in Harmony Haven is a blessing,"</span> 
+        David, a parent.
+      </p>
+      <p>
+        <span>"Harmony Haven's food scene is a melting pot of flavors,"</span> shares
+        Michael, a local chef.
+      </p>
+    </section>
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <address>
+        <p><em>It is in my head 😜</em></p>
+        <p>123 Main Street, to the Dreams</p>
+        <p>
+          Email:
+          <a href="mailto:tourism@harmonyhaven.com">tourism@harmonyhaven.com</a>
+        </p>
+      </address>
+    </section>
+    <footer>
+      <p>&copy; 2023 HarmonyHaven Tourism. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
